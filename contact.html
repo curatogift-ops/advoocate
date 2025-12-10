@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Book a free consultation with AJAY HK MADHUKAR & ASSOCIATES - Expert legal and corporate services">
+    <title>Book Consultation | AJAY HK MADHUKAR & ASSOCIATES</title>
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <div class="logo-text">
+                            AJAY HK MADHUKAR
+                            <span class="logo-subtext">& ASSOCIATES</span>
+                        </div>
+                    </a>
+                </div>
+
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                    <li class="nav-cta">
+                        <a href="contact.html" class="btn btn-primary btn-small">Book Consultation</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="hero section-sm">
+        <div class="container">
+            <div class="hero-content">
+                <h1 style="font-size: 2.5rem;">Book Free Consultation</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="section">
+        <div class="container" style="max-width: 600px;">
+            <div class="card" style="padding: 2.5rem;">
+                <div class="text-center mb-4">
+                    <div class="card-icon" style="margin: 0 auto 1.5rem; width: 80px; height: 80px; font-size: 2.5rem;">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h2>Schedule Your Consultation</h2>
+                    <p class="text-large" style="color: var(--color-gray); margin-bottom: 2rem;">
+                        Fill in your details and we'll get back to you shortly
+                    </p>
+                </div>
+
+                <form id="consultationForm" class="consultation-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">
+                            <i class="fas fa-user"></i> Your Name *
+                        </label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Enter your full name"
+                            required>
+                        <span class="form-error">Please enter your name</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone" class="form-label">
+                            <i class="fas fa-phone"></i> Phone Number *
+                        </label>
+                        <input type="tel" id="phone" name="phone" class="form-control"
+                            placeholder="Enter your 10-digit phone number" minlength="10" maxlength="10" required>
+                        <span class="form-error">Please enter a valid 10-digit phone number</span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-large" style="width: 100%; margin-top: 1rem;">
+                        <i class="fas fa-paper-plane"></i> Submit Request
+                    </button>
+                </form>
+
+                <div id="successMessage" class="success-message" style="display: none;">
+                    <div class="card"
+                        style="background: #d4edda; border: 2px solid #28a745; padding: 1.5rem; text-align: center; margin-top: 2rem;">
+                        <i class="fas fa-check-circle"
+                            style="color: #28a745; font-size: 3rem; margin-bottom: 1rem;"></i>
+                        <h3 style="color: #155724; margin-bottom: 0.5rem;">Thank You!</h3>
+                        <p style="color: #155724; margin: 0;">We've received your request and will contact you shortly.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Info Cards -->
+            <div class="grid grid-2" style="margin-top: 3rem;">
+                <div class="card text-center">
+                    <div class="card-icon" style="margin: 0 auto 1rem;">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h4>Call Us</h4>
+                    <p class="card-text">
+                        <a href="tel:+919211562507" style="color: var(--color-secondary); font-weight: 600;">
+                            +91-9211562507
+                        </a>
+                    </p>
+                </div>
+
+                <div class="card text-center">
+                    <div class="card-icon" style="margin: 0 auto 1rem;">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h4>WhatsApp</h4>
+                    <p class="card-text">
+                        <a href="https://wa.me/919211562507" target="_blank" rel="noopener noreferrer"
+                            style="color: var(--color-secondary); font-weight: 600;">
+                            Chat with us
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/919211562507" class="floating-btn whatsapp-btn" target="_blank" rel="noopener noreferrer"
+            aria-label="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:+919211562507" class="floating-btn call-btn" aria-label="Call Us">
+            <i class="fas fa-phone"></i>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AJAY HK MADHUKAR & ASSOCIATES</h3>
+                    <p>
+                        Your trusted partner for legal, corporate, and taxation services.
+                        We provide comprehensive solutions with expertise and integrity.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <div class="footer-links">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About Us</a>
+                        <a href="services.html">Services</a>
+                        <a href="contact.html">Contact Us</a>
+                        <a href="privacy.html">Privacy Policy</a>
+                        <a href="disclaimer.html">Disclaimer</a>
+                        <a href="terms.html">Terms & Conditions</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Our Services</h3>
+                    <div class="footer-links">
+                        <a href="services.html#registration">Company Registration</a>
+                        <a href="services.html#taxation">GST & Tax Filing</a>
+                        <a href="services.html#intellectual-property">Trademark & IP</a>
+                        <a href="services.html#litigation">Corporate Litigation</a>
+                        <a href="services.html#litigation">RERA Services</a>
+                        <a href="services.html#registration">Startup Services</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <p>
+                                403F, 4th Floor, Jaina Tower-2<br>
+                                District Centre, Janakpuri<br>
+                                Delhi, India
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <a href="tel:+919211562507">+91-9211562507</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <a href="mailto:hkgroupassociates@gmail.com">hkgroupassociates@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 AJAY HK MADHUKAR & ASSOCIATES. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Form submission handler
+        document.getElementById('consultationForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const name = document.getElementById('name').value.trim();
+            const phone = document.getElementById('phone').value.trim();
+
+            // Validate inputs
+            if (!name || !phone) {
+                alert('Please fill in all required fields');
+                return;
+            }
+
+            // Validate phone number (10 digits, starting with 6-9 for Indian mobile numbers)
+            const phoneRegex = /^[6-9][0-9]{9}$/;
+            if (!phoneRegex.test(phone)) {
+                alert('Please enter a valid 10-digit Indian mobile number (starting with 6, 7, 8, or 9)');
+                return;
+            }
+
+            // Hide form and show success message
+            this.style.display = 'none';
+            document.getElementById('successMessage').style.display = 'block';
+
+            // Optional: Send to WhatsApp
+            const message = `Hello! I would like to book a consultation.%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}`;
+            setTimeout(() => {
+                window.open(`https://wa.me/919211562507?text=${message}`, '_blank');
+            }, 1500);
+        });
+
+        // Allow only numbers in phone input
+        document.getElementById('phone').addEventListener('input', function (e) {
+            this.value = this.value.replace(/[^0-9]/g, '');
+        });
+    </script>
+</body>
+
+</html>
